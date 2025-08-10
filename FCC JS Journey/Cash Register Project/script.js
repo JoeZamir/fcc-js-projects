@@ -50,7 +50,6 @@ purchaseBtn.addEventListener("click", () => {
   }
 
   if (changeNeeded === totalCID) {
-    // ✅ Status CLOSED logic for step 18 & 19
     let output = "Status: CLOSED";
     for (let [name, amt] of cid) {
       if (amt > 0) {
