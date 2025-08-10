@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+}
+.phone {
+    border: 2px solid black;
+    height: 500px;
+    width: 300px;
+    margin: auto;
+    border-radius: 4%;
+    overflow: hidden;
+}
+.phone-top {
+    height: 50px;
+    background-color: black;
+    border-top-right-radius: 3%;
+    border-top-left-radius: 3%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.camera-button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+}
+.screen {
+    height: 80%;
+    background-color: #bbbbbb;
+}
+.buttons {
+    background-color: black;
+    height: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+button {
+    border-radius: 5%;
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 30%;
+    cursor: pointer;
+    box-shadow: 2px 2px whitesmoke;
+}
+button:hover {
+    background: linear-gradient(to bottom, #eeeeee, #bbbbbb);
+}
+button:active {
+    box-shadow: inset 2px 2px 5px rgba(0,0,0,0.3); /* Inner shadow for "pressed" look */
+    background: linear-gradient(to bottom, #cccccc, #eeeeee); /* Reverse gradient */
+}
+button:focus {
+    outline: 2px solid #fff; /* White outline for emphasis */
+    outline-offset: -4px;    /* Moves outline inside button border */
+}
+input {
+    width: 70%;
+    border-radius: 10px;
+}
+#results-div {
+    color: green;
+}

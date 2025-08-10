@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cash Register</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Cash Register</h1>
+        <div id="change-due"></div>
+        <label for="cash">Enter Cash from customer:</label> <br />
+        <input id="cash" required/> <br>
+        <button type="button" id="purchase-btn">Purchase</button>
+        <div class="register">
+            <div class="register-top">
+                <span class="total">Total: $</span>
+            </div>
+            <div class="register-divider"></div>
+            <div class="register-body">
+                <div class="register-buttons">
+                    <div class="black-button"></div>
+                    <div class="black-button"></div>
+                    <div class="black-button"></div>
+                    <div class="black-button"></div>
+                    <div class="black-button"></div>
+                    <div class="black-button"></div>
+                    <div class="black-button"></div>
+                    <div class="black-button"></div>
+                    <div class="black-button"></div>
+                </div>
+                <div class="register-change">
+                    <h2>Change in drawer</h2>
+                    <p>Pennies: $</p>
+                    <p>Nickels: $</p>
+                    <p>Dimes: $</p>
+                    <p>Quarters: $</p>
+                    <p>Ones: $</p>
+                    <p>Fives: $</p>
+                    <p>Tens: $</p>
+                    <p>Twenties: $</p>
+                    <p>Hundreds: $</p>
+                </div>
+            </div>
+            <div class="register-footer">
+                <div class="black-dot"></div>
+            </div>
+        </div>
+        <script src="script.js" defer></script>
+    </body>
+</html>

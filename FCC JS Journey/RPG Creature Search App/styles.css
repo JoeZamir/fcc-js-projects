@@ -1,0 +1,91 @@
+body {
+    background-color: darkblue;
+}
+h1 {
+    color:#ddd;
+    text-align: center;
+}
+.app-container {
+  max-width: 500px; /* Around half the viewport on desktop */
+  width: 90%;       /* Responsive shrink on smaller screens */
+  margin: 30px auto; /* Center horizontally */
+  background-color: #f8f8fc;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.search-container {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#search-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#search-button {
+  padding: 8px 16px;
+  background-color: #7a0bc0;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Creature Info Placeholder */
+.creature-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.creature-placeholder {
+  height: 150px; /* Fixed height to prevent layout shift */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  color: #555;
+  font-size: 1rem;
+}
+
+.types span {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 3px;
+  border-radius: 5px;
+  background-color: #ddd;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.stat-header {
+  background-color: #7a0bc0;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.stat-label,
+.stat-value {
+  background-color: #a24ed6;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  border-radius: 4px;
+}
